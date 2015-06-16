@@ -6,8 +6,8 @@
     <ul>
       {{#each legislator in model}}
         <li>
-          <span class="legislator-name"> {{legislator.first_name}} {{legislator.last_name}} </span> <br>
-          Contact: <a href={{legislator.contact_form}}>{{legislator.contact_form}}</a>
+          <a style="float-left" href={{legislator.contact_form}}><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+          <span class="legislator-name"> {{legislator.first_name}} {{legislator.last_name}} </span>
         </li>
       {{/each}}
     </ul>

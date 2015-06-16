@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>Upcoming Bills</h1>
+  </div>
+</div>
+
+<div class="container">
+  {{#each model as |bill|}}
+    <div class="panel panel-default">
+
+      <div class="panel-heading">
+        <h3>{{bill.bill.bill_id}}<span style="float: right">{{bill.legislative_day}}</span></h3>
+      </div>
+
+      <div class="panel-body">
+        <p>
+          {{bill.bill.description}}
+        </p>
+        <p>
+          {{bill.billDetails.official_title}}
+        </p>
+        <a href={{bill.bill.url}}>More Information</a>
+
+      </div>
+
+    </div>
+  {{/each}}
+</div>
