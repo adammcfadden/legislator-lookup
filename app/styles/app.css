@@ -1,9 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background: url('http://4.bp.blogspot.com/-QADXSnX1k-A/VDywld2ulGI/AAAAAAAArys/4Fq1BKFoCdM/s1600/12_angry_men.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 60px;
 }
 
 .panel-heading {
@@ -12,5 +18,9 @@ body {
 }
 
 .jumbotron {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+.navbar {
   background-color: rgba(245, 245, 245, 0.8);
 }
