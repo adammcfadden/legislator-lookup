@@ -1,0 +1,16 @@
+body {
+  background: url('http://4.bp.blogspot.com/-QADXSnX1k-A/VDywld2ulGI/AAAAAAAArys/4Fq1BKFoCdM/s1600/12_angry_men.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.panel-heading {
+  padding-top: 1px;
+  padding-bottom: 8px;
+}
+
+.jumbotron {
+  background-color: rgba(245, 245, 245, 0.8);
+}
